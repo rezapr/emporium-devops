@@ -1,6 +1,6 @@
 emporium:
-  host: emporium-production.bigboxapp.com
-  nameSpace: emporium-production
+  host: emporium.bigboxapp.com
+  nameSpace: bigboxapp-production
   secretName: letsencrypt-nginx-production-ui
   image:
     repository: registry.digitalocean.com/sg-bigboxapp-cr1/emporium

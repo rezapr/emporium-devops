@@ -1,6 +1,6 @@
 emporium:
   host: emporium-qa.bigboxapp.com
-  nameSpace: emporium-qa
+  nameSpace: bigboxapp-qa
   secretName: letsencrypt-nginx-qa-ui
   image:
     repository: registry.digitalocean.com/sg-bigboxapp-cr1/emporium

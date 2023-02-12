@@ -1,6 +1,6 @@
 emporium:
   host: emporium-stage.bigboxapp.com
-  nameSpace: emporium-stage
+  nameSpace: bigboxapp-stage
   secretName: letsencrypt-nginx-stage-ui
   image:
     repository: registry.digitalocean.com/sg-bigboxapp-cr1/emporium
