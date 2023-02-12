@@ -2,7 +2,7 @@
 apiVersion: cert-manager.io/v1
 kind: Issuer
 metadata:
-  name: letsencrypt-nginx-qa
+  name: letsencrypt-nginx
   namespace: bigboxapp-qa
 spec:
   # ACME issuer configuration
