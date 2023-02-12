@@ -1,0 +1,8 @@
+emporium:
+  host: emporium-production.bigboxapp.com
+  nameSpace: emporium-production
+  secretName: letsencrypt-nginx-production-ui
+  image:
+    repository: registry.digitalocean.com/sg-bigboxapp-cr1/emporium
+    tag: "0.0.1"
+  replicaCount: 2

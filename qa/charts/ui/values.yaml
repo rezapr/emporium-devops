@@ -1,0 +1,7 @@
+host: {}
+nameSpace: {}
+secretName: {}
+image:
+  repository: {}
+  tag: {}
+replicaCount: {}

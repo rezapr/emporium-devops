@@ -1,0 +1,18 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: emporium-service
+  namespace: {{ .Values.nameSpace }}
+spec:
+  type: NodePort
+  ports:
+    - name: http
+      port: 80
+      targetPort: 80
+      protocol: TCP
+    - name: https
+      port: 443
+      targetPort: 80
+      protocol: TCP      
+  selector:
+    app: emporium

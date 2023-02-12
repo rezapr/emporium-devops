@@ -1,0 +1,8 @@
+apiVersion: v2
+name: emporium
+description: Helm Chart for Emporium UI
+type: application
+# Chart version
+version: 1.0.0
+# Application version
+appVersion: 0.0.1
