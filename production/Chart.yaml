@@ -4,5 +4,5 @@ description: Helm Chart for Invifo
 # Chart version
 version: 1.0.0
 # Application version
-appVersion: 0.0.1
+appVersion: 1.0.0
 icon: https://bigbook1.s3.ap-southeast-1.amazonaws.com/storage/image/business-logo/e-logo.png
